@@ -1,0 +1,435 @@
+body{
+  background-color: #EADFCF;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("Flower.png");
+  height: 754px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+
+/*
+#fourth{
+  background-color: #EADFCF;
+}
+
+#second{
+  background-color: #EADFCF;
+}
+*/
+
+.pb{
+  background-color: #f6e6cb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: center;
+  color:  #F05B46;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.firstcont{
+  margin: auto;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.thirdcont{
+  padding: 100px 0;
+}
+.fourthcont{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vw;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: center;
+  color:  #F05B46;
+}
+
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: center;
+  color:  #F05B46;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ef8172;
+}
+
+.pp{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ef8172;
+}
+
+/*----------------VS-------------------------*/
+.pad1{
+  padding: 70px 0;
+}
+
+.bg4{
+  background: white;
+  padding: 100px
+}
+
+.versus{
+   position: absolute;
+   background: white;
+   border-radius: 100%;
+   border: 1px solid red;
+   color: red;
+   font-size: 1.25em;
+   height: 78px;
+   left: 50%;
+   margin-left: -39px;
+   padding-top: 22px;
+   text-align: center;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 78px;
+   z-index: 4;
+}
+.divided {
+   position: relative;
+   background: white;
+}
+.divided::after {
+   background: linear-gradient(#f0f7fd 0, red 50%, #f0f7fd 100%);
+   width: 1px;
+   top: 100px;
+   bottom: 100px;
+   left: 50%;
+   height: auto;
+   right: auto;
+   position: absolute;
+}
+
+@media (max-width: 768px) {
+   .divided::after {
+       background: linear-gradient(90deg, #f0f7fd 0, red 50%, #f0f7fd 100%);
+       content: "";
+       position: absolute;
+       top: 50%;
+       left: 20px;
+       right: 20px;
+       height: 1px;
+       width: 100%;
+   }
+}
+
+
+.border-top-0 {
+    border-top:0!important;
+}
+.border-right-0 {
+    border-right: 0!important;
+}
+.border-left-0 {
+    border-left: 0!important;
+}
+.border-bottom-0 {
+    border-bottom: 0!important;
+}
+@media (min-width: 576px) {
+    .border-sm-top {
+        border-top: 1px solid #dee2e6!important;
+   }
+    .border-sm-right {
+        border-right: 1px solid #dee2e6!important;
+   }
+    .border-sm-left {
+        border-left: 1px solid #dee2e6!important;
+   }
+    .border-sm-bottom {
+        border-bottom: 1px solid #dee2e6!important;
+   }
+    .border-sm-top-0 {
+        border-top:0!important;
+   }
+    .border-sm-right-0 {
+        border-right: 0!important;
+   }
+    .border-sm-left-0 {
+        border-left: 0!important;
+   }
+    .border-sm-bottom-0 {
+        border-bottom: 0!important;
+   }
+}
+@media (min-width: 768px) {
+    .border-md-top {
+        border-top: 1px solid #dee2e6!important;
+   }
+    .border-md-right {
+        border-right: 1px solid #dee2e6!important;
+   }
+    .border-md-left {
+        border-left: 1px solid #dee2e6!important;
+   }
+    .border-md-bottom {
+        border-bottom: 1px solid #dee2e6!important;
+   }
+    .border-md-top-0 {
+        border-top:0!important;
+   }
+    .border-md-right-0 {
+        border-right: 0!important;
+   }
+    .border-md-left-0 {
+        border-left: 0!important;
+   }
+    .border-md-bottom-0 {
+        border-bottom: 0!important;
+   }
+}
+@media (min-width: 992px) {
+    .border-lg-top {
+        border-top: 1px solid #dee2e6!important;
+   }
+    .border-lg-right {
+        border-right: 1px solid #dee2e6!important;
+   }
+    .border-lg-left {
+        border-left: 1px solid #dee2e6!important;
+   }
+    .border-lg-bottom {
+        border-bottom: 1px solid #dee2e6!important;
+   }
+    .border-lg-top-0 {
+        border-top:0!important;
+   }
+    .border-lg-right-0 {
+        border-right: 0!important;
+   }
+    .border-lg-left-0 {
+        border-left: 0!important;
+   }
+    .border-lg-bottom-0 {
+        border-bottom: 0!important;
+   }
+}
+@media (min-width: 1200px) {
+}
+
+
+
+
+ /* Gallery + portfolio + card + hover + ravi */
+
+ .g1{
+     object-fit: fill;
+ }
+
+ .grid figure {
+     position: relative;
+     float: left;
+     overflow: hidden;
+     background: #3085a3;
+     text-align: center;
+     cursor: pointer;
+ }
+
+ .grid figure img {
+     position: relative;
+     display: block;
+     min-height: 100%;
+     max-width: 100%;
+     opacity: 0.8;
+     margin: 0;
+ }
+
+ .grid figure figcaption {
+     padding: 2em;
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 1.25em;
+     -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
+ }
+
+ .grid figure figcaption::before,
+ .grid figure figcaption::after {
+     pointer-events: none;
+ }
+
+ .grid figure figcaption,
+ .grid figure figcaption>a {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ }
+
+ .grid figure figcaption>a {
+     z-index: 1000;
+     text-indent: 200%;
+     white-space: nowrap;
+     font-size: 0;
+     opacity: 0;
+ }
+
+ .grid figure h2 {
+     word-spacing: -0.15em;
+     font-weight: 300;
+ }
+
+ .grid figure h2 span {
+     font-weight: 800;
+ }
+
+ .grid figure h2,
+ .grid figure p {
+     margin: 0;
+ }
+
+ .grid figure p {
+     letter-spacing: 1px;
+     font-size: 68.5%;
+ }
+
+
+
+ figure.effect-ravi {
+     background: #303fa9;
+     margin: 0;
+ }
+ .ppic{
+   height: 443.987px;
+  object-fit: fill;
+ }
+
+ .ppic2{
+   height: 668px;
+  object-fit: fill;
+ }
+
+ .ppic3{
+  height: 200px;
+  object-fit: fill;
+ }
+
+ .grid [class^="col"] {
+     padding: 2px;
+ }
+
+ figure.effect-ravi h2 {
+     font-size: 158.75%;
+ }
+
+ figure.effect-ravi h2,
+ figure.effect-ravi p {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+     transition: opacity 0.35s, transform 0.35s;
+     -webkit-transform: translate3d(-50%, -50%, 0);
+     transform: translate3d(-50%, -50%, 0);
+     -webkit-transform-origin: 50%;
+     transform-origin: 50%;
+ }
+
+ figure.effect-ravi figcaption::before {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     width: 120px;
+     height: 120px;
+     border: 2px solid #fff;
+     content: '';
+     opacity: 0;
+     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+     transition: opacity 0.35s, transform 0.35s;
+     -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+     transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+     -webkit-transform-origin: 50%;
+     transform-origin: 50%;
+ }
+
+ figure.effect-ravi p {
+     width: 100px;
+     text-transform: none;
+     font-size: 121%;
+     line-height: 2;
+ }
+
+ figure.effect-ravi p a {
+     color: #fff;
+ }
+
+ figure.effect-ravi p a:hover,
+ figure.effect-ravi p a:focus {
+     opacity: 0.6;
+ }
+
+ figure.effect-ravi p a i {
+     opacity: 0;
+     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+     transition: opacity 0.35s, transform 0.35s;
+ }
+
+ figure.effect-ravi p a:first-child i {
+     -webkit-transform: translate3d(-60px, -60px, 0);
+     transform: translate3d(-60px, -60px, 0);
+ }
+
+ figure.effect-ravi p a:nth-child(2) i {
+     -webkit-transform: translate3d(60px, -60px, 0);
+     transform: translate3d(60px, -60px, 0);
+ }
+
+ figure.effect-ravi p a:nth-child(3) i {
+     -webkit-transform: translate3d(-60px, 60px, 0);
+     transform: translate3d(-60px, 60px, 0);
+ }
+
+ figure.effect-ravi p a:nth-child(4) i {
+     -webkit-transform: translate3d(60px, 60px, 0);
+     transform: translate3d(60px, 60px, 0);
+ }
+
+ figure.effect-ravi:hover figcaption::before {
+     opacity: 1;
+     -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
+     transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
+ }
+
+ figure.effect-ravi:hover h2 {
+     opacity: 0;
+     -webkit-transform: translate3d(-50%, -50%, 0) scale3d(0.8, 0.8, 1);
+     transform: translate3d(-50%, -50%, 0) scale3d(0.8, 0.8, 1);
+ }
+
+ figure.effect-ravi:hover p i:empty {
+     -webkit-transform: translate3d(0, 0, 0);
+     transform: translate3d(0, 0, 0);
+     /* just because it's stronger than nth-child */
+     opacity: 1;
+ }
